@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài tập về nhà</title>
+    <link rel="stylesheet" href="cssQuanLyXe.css">
+    <script type="text/javascript" src="jsQuanLyXe.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <div class="input_title">
+                <p>Nhập thông tin xe</p>
+            </div>
+            <form action="">
+            <div  class="contain_input">
+                <p>Tên xe:</p>
+                <input type="text" id="txt_name">
+                <p>Loại bánh xe:</p>
+                <select name="" id="slc_typeWheel">
+                    <option value="type1">Loại 1</option>
+                    <option value="type2">Loại 2</option>
+                </select>
+                <p>Loại động cơ:</p>
+                <select name="" id="slc_typeEngine">
+                    <option value="type1">Loại 1</option>
+                    <option value="type2">Loại 2</option>
+                </select>
+                <p>Màu sắc:</p>
+                <input type="text" id="txt_color">
+            </div>
+            <br>
+            <button type="button" id="enter" onclick="nhap()" >Nhập thông tin</button>
+            <button type="reset" id="reset">Làm mới</button>
+            </form>
+        </div>
+        <div class="output">
+            <table id="output_list">
+                <tr>
+                    <th>STT</th>
+                    <th>Tên xe</th>
+                    <th>Bánh xe loại</th>
+                    <th>Động cơ loại</th>
+                    <th>Màu xe</th>
+                    <th>Tình trạng xe</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    
+</body>
+</html>
